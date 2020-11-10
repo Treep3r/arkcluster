@@ -11,6 +11,7 @@ LABEL org.label-schema.maintainer="Richard Kuhnt <r15ch13+git@gmail.com>" \
 ENV CRON_AUTO_UPDATE="0 */3 * * *" \
     CRON_AUTO_BACKUP="0 */1 * * *" \
     UPDATEONSTART=1 \
+    UPDATEMODS=1 \
     BACKUPONSTART=1 \
     BACKUPONSTOP=1 \
     WARNONSTOP=1 \
@@ -31,6 +32,7 @@ ENV CRON_AUTO_UPDATE="0 */3 * * *" \
     SPECTATOR_PASSWORD="" \
     MODS="" \
     CLUSTER_ID="keepmesecret" \
+    MULTIHOME="localhost" \
     KILL_PROCESS_TIMEOUT=300 \
     KILL_ALL_PROCESSES_TIMEOUT=300
 
